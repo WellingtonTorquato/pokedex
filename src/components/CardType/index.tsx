@@ -3,8 +3,9 @@ import { Container } from "./style";
 
 export type TypeProps = {
   type: PokemonType;
+  size?: number;
 };
 
-export function CardType({ type }: TypeProps) {
-  return <Container type={type}>{type}</Container>;
+export function CardType({ type, size = 10 }: TypeProps) {
+  return <Container type={type} size={size}>{type}</Container>;
 }
