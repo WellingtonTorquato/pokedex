@@ -30,15 +30,16 @@ export function Header() {
 
       <form onSubmit={handleSubmit(onSubmit)}>
         <section>
-          <label htmlFor="imputSearch" className="srOnly">
-            Buscar Pokemon
+          <label htmlFor="inputSearch" className="srOnly">
+            Pesquisar Pokémon
           </label>
+
           <input
             type="text"
-            id="imputSearch"
-            placeholder="Pesquisar Pokemon"
+            id="inputSearch"
+            placeholder="Pesquisar Pokémon"
             {...register("inputSearch", {
-              required: "Preencha o nome do Pokemon",
+              required: "Preencha o nome do Pokémon",
             })}
           />
           <span className="inputError">{errors.inputSearch?.message}</span>

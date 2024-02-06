@@ -21,7 +21,7 @@ export const Container = styled.header`
     align-items: center;
     justify-content: center;
     gap: 0.8rem;
-    margin-top: 0%.8rem;
+    margin-top: 0.8rem;
   }
 
   input {

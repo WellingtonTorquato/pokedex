@@ -1,7 +1,3 @@
-=> Reprograma Jucás <=
-
-
-
 => Vercel <=
 
 {
